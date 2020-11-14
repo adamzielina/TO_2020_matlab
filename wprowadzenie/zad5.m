@@ -1,0 +1,10 @@
+x=linspace(-50,50,20);
+y=x;
+[X,Y]=meshgrid(x,y);
+Z=sin(X)+cos(Y);
+subplot(3,1,1);
+surf(X,Y,Z); title('surf');
+subplot(3,1,2);
+mesh(X,Y,Z); title('mesh');
+subplot(3,1,3);
+contourf(X,Y,Z); title('contourf');
