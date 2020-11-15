@@ -1,4 +1,4 @@
-function [b,c] = Potegowa(x,y)
+function [b,c] = Potegowa(x,y) %do zad4.m
 z=log(y);
 u=log(x);
 [a1,a2]=Liniowa(u,z);
